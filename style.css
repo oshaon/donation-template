@@ -1,0 +1,137 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-size: 17px;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    
+}
+h1{
+    color: blue;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.banner{
+    background-image: url(images/1.jpg);
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    background-size: cover;
+}
+
+.banner_content{
+    padding: 100px;
+}
+
+.banner_button{
+    margin: 15px;
+    padding: 8px;
+    font-size: 15px;
+    background-color:red;
+    border-radius: 8px;
+    border: none;
+}
+
+.banner_button:hover{
+    background-color: blue;
+    color:red;
+}
+
+.donat_now{
+    text-align: center;
+    margin-top: 4%;
+}
+
+.donate_amount{
+    display: flex;
+    justify-content: center;
+}
+
+.amount{
+    background-color: red;
+    margin: 12px;
+    border: 2px chocolate solid ;
+    border-radius: 6px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.amount:hover{
+    background-color: blue;
+    color: red;
+}
+
+.active{
+    background-color: blue;
+    color: red;
+}
+
+.enter_amount{
+    margin-top: 10px;
+}
+
+#amount_text{
+    width: 30%;
+    padding: 6px;
+    border: none;
+    border-bottom: 2px black solid;
+}
+
+.donation_enter{
+    margin-top: 1%;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.donation_enter:hover{
+    background-color: blue;
+    color: red;
+    border-radius: 5px;
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin-top: 7%;
+}
+
+.donation_plan{
+    text-align: center;
+    margin-top: 4%;
+}
+
+.plan_box{
+    display: flex;
+    justify-content: center;
+    background-color:red;
+}
+.plan{
+    border: 2px crimson solid;
+    padding: 12px;
+    margin: 12px;
+    background-color:pink;
+    color: red;
+}
+
+.gallery{
+    text-align: center;
+    padding-top: 3%;
+}
+
+.image_row{
+    display: flex;
+    justify-content: center;
+}
+
+
+.image_row img{
+    width: 23%;
+    padding: 5px;
+    margin: 5px;
+}
